@@ -25,7 +25,7 @@ offers:
     offer_slug: six-months-free-growth-for-startups
     offer_slug_aliases: []
     title: Six months of RealUptime Growth free for startups
-    summary: Startups under two years old with under $1M raised or recognized accelerator backing can apply for six free months of Growth, followed by standard pricing.
+    summary: Startups less than two years old and either under $1M raised or backed by a recognized accelerator can apply for six months of Growth free.
     lifecycle:
       status: active
       effective_from: 2026-10-07T12:47:48.856Z
@@ -34,13 +34,12 @@ offers:
         - benefit_id: ben_01
           kind: free-service
           service: RealUptime Growth plan
-          description: Full Growth access for six months from the first Growth invoice, on monthly or yearly billing. Scale and MSP plans are excluded.
+          description: Full Growth access for six months from the first Growth invoice, on monthly or yearly billing. Scale and MSP plans are excluded. After six months, Growth bills at the published list price.
           duration:
             kind: exact
             value: P6M
       consideration:
-        kind: variable
-        description: Growth is free for six months, then bills at the published list price.
+        kind: none
     eligibility:
       rule:
         kind: all
